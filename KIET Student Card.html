@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3 - Student Cards</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col justify-center items-center p-6">
+
+  <div class="max-w-6xl w-full mx-auto">
+    
+    <h1 class="text-3xl font-bold text-gray-800 text-center mb-8">
+      Student Profiles
+    </h1>
+
+    <div class="flex flex-wrap justify-center gap-6">
+
+      <div class="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center border border-gray-100">
+        <div class="w-20 h-20 bg-indigo-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4">
+          YK
+        </div>
+        <h2 class="text-xl font-bold text-gray-800">Yash Kumar</h2>
+        <p class="text-sm text-indigo-600 font-medium">Computer Science</p>
+        <p class="text-xs text-gray-500 mt-2">Specializing in Web Development and Open Source.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center border border-gray-100">
+        <div class="w-20 h-20 bg-purple-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4">
+          VV
+        </div>
+        <h2 class="text-xl font-bold text-gray-800">Vivek Verma</h2>
+        <p class="text-sm text-purple-600 font-medium">Data Science</p>
+        <p class="text-xs text-gray-500 mt-2">Passionate about Machine Learning and AI Analytics.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow-md flex flex-col items-center text-center border border-gray-100">
+        <div class="w-20 h-20 bg-emerald-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4">
+          VG
+        </div>
+        <h2 class="text-xl font-bold text-gray-800">Vinay Grewal</h2>
+        <p class="text-sm text-emerald-600 font-medium">Information Technology</p>
+        <p class="text-xs text-gray-500 mt-2">Focused on Cloud Computing and Cybersecurity.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
